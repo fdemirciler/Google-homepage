@@ -1,14 +1,14 @@
-.top-bar    {
-    position:absolute;
+.top-bar {
+    position: absolute;
     top: 10;
     right: 0;
     margin-right: 2vw;
-    margin-top: 57px;
+    margin-top: 10px;
     display: flex;
     overflow: hidden;
     transition: height 0.3s;
 
-    
+
 }
 
 .top-bar a {
@@ -19,18 +19,39 @@
     text-align: center;
     margin: 10px;
     color: gray;
+    align-items: center;
 }
 
 .top-bar a:hover {
     text-decoration: underline;
-}    
+}
 
 .top-bar a:visited {
     text-decoration: none;
 }
 
-.logo {
+.logo   {
     position: absolute;
-    top: 250px;
-    left: 600px;
+    top: 30%;
+    left: 40%;
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    background-color: transparent;
+    border:rgb(238, 234, 234);
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    color: rgba(212, 204, 204, 0.87);
+    word-wrap: break-word;
+    outline: 0px;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 45px;
+    font-size: 20px
 }

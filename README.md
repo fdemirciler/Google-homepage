@@ -1,1 +1,1 @@
-This small project, as a part of The Odin Project, aims to build a Google homepage using HTML and CSS. In this project, I'm expected to use DOM, HTML elements and CSS styling. The purpose is to become familiar with the building blocks of a web page.
+This small project, as a part of The Odin Project, aims to build a Google homepage using HTML and CSS. In this project, I'm etrying to use DOM, HTML elements and CSS styling. The purpose is to become familiar with the building blocks of a web page.
