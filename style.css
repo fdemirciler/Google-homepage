@@ -1,0 +1,36 @@
+.top-bar    {
+    position:absolute;
+    top: 10;
+    right: 0;
+    margin-right: 2vw;
+    margin-top: 57px;
+    display: flex;
+    overflow: hidden;
+    transition: height 0.3s;
+
+    
+}
+
+.top-bar a {
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    margin: 10px;
+    color: gray;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}    
+
+.top-bar a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
