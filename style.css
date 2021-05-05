@@ -1,3 +1,10 @@
+body    {
+
+    font-family: 'Roboto';
+    font-size: 20px;
+      }
+
+
 .top-bar {
     position: absolute;
     top: 10;
@@ -15,7 +22,6 @@
     justify-content: space-between;
     display: flex;
     text-decoration: none;
-    font-size: small;
     text-align: center;
     margin: 10px;
     color: gray;
@@ -54,4 +60,23 @@
     margin-top: -37px;
     height: 45px;
     font-size: 20px
+}
+
+.sub-search {
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    background-color: transparent;
+    border:rgb(238, 234, 234);
+    border-radius: 25px;
+    outline:none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -50px;
+    height: 25px;
+    width: 500px;
+    justify-content:space-around;
+    align-items:stretch;
+    
 }
