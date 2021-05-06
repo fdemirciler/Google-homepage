@@ -126,11 +126,11 @@ ul.bottom-bar a:visited {
     bottom: 0;
     right: 0;
     justify-content: space-between;
-    display:inline-block;
     text-decoration: none;
     text-align: right;
     margin: 10px;
     align-items:right;
+    
     
 }
 
@@ -150,4 +150,9 @@ ul.bottom-bar a:visited {
     display: inline;
     text-decoration: none;
     color: gray
+}
+
+.right-bar li a:hover   {
+
+    text-decoration: underline;
 }
