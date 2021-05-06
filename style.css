@@ -1,7 +1,9 @@
 body {
 
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 16px;
+    font-style: normal;
+    color: #5f6368;
 }
 
 
@@ -24,7 +26,7 @@ body {
     text-decoration: none;
     text-align: center;
     margin: 10px;
-    color: gray;
+    color: inherit;
     align-items: center;
 }
 
@@ -42,16 +44,16 @@ body {
     left: 40%;
 }
 
-.search {
+.search input {
     position: absolute;
     top: 50%;
-    left: 33%;
+    right: 28%;
     background-color: transparent;
-    border: rgb(238, 234, 234);
-    border-radius: 25px;
-    margin: 0;
-    padding: 0;
-    color: rgba(212, 204, 204, 0.87);
+    border: 2px solid #e1e1e1;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 0 40px;
+    color: inherit;
     word-wrap: break-word;
     outline: 0px;
     display: flex;
@@ -63,22 +65,29 @@ body {
 }
 
 .sub-search {
-    position: absolute;
-    top: 60%;
-    left: 33%;
-    background-color: transparent;
-    border: rgb(238, 234, 234);
-    border-radius: 25px;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: -50px;
-    height: 25px;
-    width: 500px;
-    justify-content: space-around;
-    align-items: stretch;
 
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.sub-search button {
+
+    display: inline;
+    margin: 40px;
+    padding: 15px;
+    background-color: #eee;
+    border-color: #c0c0c0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    align-items: center;
+    font: inherit;
+    font-style: inherit;
+    color: inherit;
 }
 
 ul.bottom-bar {
@@ -110,7 +119,7 @@ ul.bottom-bar li a {
 
     display: inline;
     text-decoration: none;
-    color: gray
+    color: inherit
 }
 
 ul.bottom-bar a:hover {
@@ -150,8 +159,9 @@ ul.bottom-bar a:visited {
 .right-bar li a {
 
     display: inline;
+    margin-right: 20px;
     text-decoration: none;
-    color: gray
+    color: inherit
 }
 
 .right-bar li a:hover {
